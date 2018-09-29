@@ -22,19 +22,19 @@ session_start();
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html">Inicio</a></li>
 					<!-- Aquí hay que mirar de poner unos if -->
 					<?php 
 					if($_SESSION['auth_characterid']){
 					?>
-					<li><a href="users/whoami.php">Quien soy</a></li>
+					<li><a href="users/whoami.php">Quienes somos</a></li>
 					<li><a href="users/logout.php">Logout</a></li>
 					<?php }else{ ?>
 					<li><a href="users/devlogin.php">Login</a></li>
 					<?php } ?>
 					
 					
-					<li><a href="elements.html">Elements</a></li>
+					<li><a href="elements.html">Elementos</a></li>
 				</ul>
 			</nav>
 
@@ -47,10 +47,10 @@ session_start();
 			<section id="banner" class="bg-img" data-bg="bhaaltec2.png">
 				<div class="inner">
 					<header>
-						<h1>We are CRUZADOS!</h1>
+						<h1>Somos CRUZADOS!</h1>
 					</header>
 				</div>
-				<a href="#one" class="more">Learn More</a>
+				<a href="#one" class="more">Saber mas</a>
 			</section>
 
 		<!-- One -->
@@ -58,18 +58,18 @@ session_start();
 				<div class="inner">
 					<article class="box">
 						<header>
-							<h2>Who are We?</h2>
+							<h2>Quienes somos?</h2>
 							<p>___________________________</p>
 						</header>
 						<div class="content">
-							<p>Cruzados is an English & Spanish speaking Corp, proud member of the Goonswarm Federation, who dwell deep in null security space, beyond the reach of the four great Empires, and far from the protection of CONCORD. Together with our allies, we have forged our own Empire which knows no equal.</p>
+							<p>Cruzados es una corporación Hispana y Inglesa. Pertenecemos a la alianza de Goonswarm Federation la cual vive en nullsec, lejos de los cuatro gran imperios y de la protección de CONCORD. Junto con nuestros aliados hemos formado nuestro propio Imperio el cual nadie hasta la fecha ha logrado superar.</p>
 						</div>
 						<footer>
-							<a href="generic.html" class="button alt">Learn More</a>
+							<a href="generic.html" class="button alt">Saber mas</a>
 						</footer>
 					</article>
 				</div>
-				<a href="#two" class="more">Learn More</a>
+				<a href="#two" class="more">Saber mas</a>
 			</section>
 
 		<!-- Two -->
@@ -77,25 +77,25 @@ session_start();
 				<div class="inner">
 					<article class="box">
 						<header>
-							<h2>Why Join Cruzados?</h2>
-							<p>There are more Corporations in Eve Online than there are Star Systems, so why join us?</p>
+							<h2>Porque unirse a CRUZADOS?</h2>
+							<p>Hay mas corporaciones en Eve Online que Sistemas Solares en el espacio, porque nosotros?</p>
 						</header>
 						<div class="content">
 							<ul>
-								<li>Ship Reimbursement for alliance fleet losses</li>
-								<li>Most Extensive <b><a href="https://wiki.goonfleet.com/main_page.html"> Wiki</a></b> covering every part of the game</li>
-								<li>Alliance Jabber service to keep you up to date</li>
-								<li>Mumble voice communication server for fleets and to talk to friends</li>
-								<li>Special Interest Groups (SIGs) and Squads for any playstyle, including Deafswarm for those of us hard of hearing to still be able to receive fleet orders!</li>
-								<li>Massive player run industrial and logistical infrastructure</li>
+								<li>Reembolso de naves en caso de muerte durante flotas de alianza.</li>
+								<li>Extensa <b><a href="https://wiki.goonfleet.com/main_page.html"> Wiki</a></b> propia la cual cubre los aspectos del juego que no encontrarás en otra parte. </li>
+								<li>Jabber de Alianza para mantenerte al día.</li>
+								<li>Servidor de voz Mumble para flotas, corporación y amigos.</li>
+								<li>Grupos de Interés Especial (SIGs) y Escuadrones para cada estilo de juego!</li>
+								<li>Infraestructura logistica y industrial masiva.</li>
 							</ul>
 						</div>
 						<footer>
-							<a href="generic.html" class="button alt">Learn More</a>
+							<a href="generic.html" class="button alt">Saber mas</a>
 						</footer>
 					</article>
 				</div>
-				<a href="#three" class="more">Learn More</a>
+				<a href="#three" class="more">Saber mas</a>
 			</section>
 
 		<!-- Three -->
@@ -139,12 +139,12 @@ session_start();
 			<footer id="footer">
 				<div class="inner">
 
-					<h2>Contact Me</h2>
+					<h2>Contacto</h2>
 
 					<form action="#" method="post">
 
 						<div class="field half first">
-							<label for="name">Name</label>
+							<label for="name">Nombre</label>
 							<input name="name" id="name" type="text" placeholder="Name">
 						</div>
 						<div class="field half">
@@ -152,11 +152,11 @@ session_start();
 							<input name="email" id="email" type="email" placeholder="Email">
 						</div>
 						<div class="field">
-							<label for="message">Message</label>
+							<label for="message">Mensaje</label>
 							<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
 						</div>
 						<ul class="actions">
-							<li><input value="Send Message" class="button alt" type="submit"></li>
+							<li><input value="Enviar Mensaje" class="button alt" type="submit"></li>
 						</ul>
 					</form>
 
